@@ -9,7 +9,7 @@
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background-image: url(assets/Pepsi.JPG);
+    background-image: url(../assets/Pepsi.JPG);
     background-position: center;
     background-size: cover;
 }
