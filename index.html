@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ondas</title>
+</head>
+<body>
+    <div class="bg-image">
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.bg-image').ripples({
+            resolution: 200,
+            dropRadius: 20,
+            perturbance: 0.009,
+        });
+    });
+</script>
+</html>
